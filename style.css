@@ -60,7 +60,7 @@ body {
 
 .acceuil{
     height: 100vh;
-    background: url('hgf.jpg') no-repeat;
+    background: url('fond\ noir.jpg') no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;
