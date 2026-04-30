@@ -6,9 +6,9 @@
 }
 
 body {
-    background: #250829;
+    background: #08010e;
     color: aliceblue;
-
+   padding-top: 60px;
 }
 .header {
     position: fixed;
@@ -16,11 +16,14 @@ body {
     left: 0;
     width: 100%;
     padding: 20px 10%;
-    background: transparent;
+    /*background: transparent;*/
+     background:rgba(8, 1, 14);
+    backdrop-filter: blur(8px);
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 100;
+
 }
 
 .logo {
@@ -59,7 +62,7 @@ body {
 }
 
 .acceuil{
-    height: 100vh;
+    min-height: 100vh;
     background: url('fond-sombre.png') no-repeat;
     background-size: cover;
     background-position: center;
@@ -68,7 +71,8 @@ body {
     padding: 0 10%;
 }
 .acceuil-content {
-    max-width: 800px;
+    max-width: 900px;
+  width: 100%;
 }
 .acceuil-content h1{
     font-size: 40px;
@@ -175,4 +179,31 @@ body {
     100%{
         width: 0;
     }
+}
+
+.timeline {
+  position: relative;
+  margin-top: 50px;
+  padding-left: 40px;
+  border-left: 3px solid #b266ff;
+  max-width: 800px;
+}
+
+.timeline-item {
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.timeline-item::before {
+  left: -11px;
+  top: 8px;
+}
+
+.timeline-item h2 {
+  font-size: 22px;
+}
+
+.timeline-item p {
+  margin-top: 8px;
+  line-height: 1.5;
 }
