@@ -60,7 +60,7 @@ body {
 
 .acceuil{
     height: 100vh;
-    background: url('fond\ sombre\ violet.png') no-repeat;
+    background: url('fond-sombre.png') no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;
