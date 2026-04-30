@@ -6,7 +6,7 @@
 }
 
 body {
-    background: #250829;
+    background: #0f0011;
     color: aliceblue;
 
 }
@@ -67,7 +67,8 @@ body {
     padding: 0 10%;
 }
 .acceuil-content {
-    max-width: 800px;
+     max-width: 800px;
+    width: 60%;
 }
 .acceuil-content h1{
     font-size: 30px;
@@ -98,8 +99,8 @@ body {
     align-items: center;
     width: 150px;
     height: 100%;
-    background: #751183;
-    border: 2px solid #751183 ;
+    background: #2c014a;
+    border: 2px solid #2c014a ;
     border-radius: 8px;
     font-size: 19px;
     color: black;
@@ -120,7 +121,7 @@ body {
     left: 0;
     width: 0;
     height: 100%;
-    background: rgb(233, 103, 243);
+    background: rgb(153, 18, 183);
     z-index: -1;
     transition: .5s;
 }
@@ -174,4 +175,22 @@ body {
     100%{
         width: 0;
     }
+}
+
+.image-droite {
+  width: 40%;
+}
+
+.image-droite img {
+  width: 100%;
+  height: auto;
+    border-radius: 10px;
+}
+
+.epreuve-flex {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 40px;
+  padding: 0 10%;
 }

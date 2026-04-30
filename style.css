@@ -60,7 +60,7 @@ body {
 
 .acceuil{
     height: 100vh;
-    background: url('fond\ noir.jpg') no-repeat;
+    background: url('fond\ sombre\ violet.png') no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -99,8 +99,8 @@ body {
     align-items: center;
     width: 150px;
     height: 100%;
-    background: #062aa1;
-    border: 2px solid #062aa1 ;
+    background: #2c014a;
+    border: 2px solid #2c014a ;
     border-radius: 8px;
     font-size: 19px;
     color: black;
@@ -121,7 +121,7 @@ body {
     left: 0;
     width: 0;
     height: 100%;
-    background: rgb(103, 243, 231);
+    background: rgb(153, 18, 183);
     z-index: -1;
     transition: .5s;
 }
