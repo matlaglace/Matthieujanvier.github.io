@@ -16,8 +16,7 @@ body {
     left: 0;
     width: 100%;
     padding: 20px 10%;
-    /*background: transparent;*/
-     background:rgba(8, 1, 14);
+    background:rgba(8, 1, 14);
     backdrop-filter: blur(8px);
     display: flex;
     justify-content: space-between;
